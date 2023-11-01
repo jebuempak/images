@@ -1,0 +1,123 @@
+[legacy]
+new-terminal-mode='tab'
+theme-variant='dark'
+
+[legacy/keybindings]
+copy='<Primary>c'
+full-screen='<Primary>F11'
+new-tab='<Primary><Shift>t'
+paste='<Primary>v'
+zoom-in='<Primary><Super>equal'
+zoom-normal='<Primary><Super>0'
+zoom-out='<Primary><Super>minus'
+
+[legacy/profiles:]
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9', 'ced29367-563f-4189-b81f-d55a0e49c0d5', '6c211510-9ff0-4783-b38a-f6e3149a72b0', '780ed5e5-571e-4220-a785-60e4d8673740', 'bba95f4b-9f84-4040-8923-f3a8fb366a7d']
+
+[legacy/profiles:/:6c211510-9ff0-4783-b38a-f6e3149a72b0]
+audible-bell=false
+background-color='rgb(46,52,54)'
+background-transparency-percent=9
+bold-color='rgb(163,47,47)'
+bold-color-same-as-fg=true
+bold-is-bright=false
+cell-width-scale=1.0
+custom-command='ssh -A -J ipbsadm@115.85.182.183:5720  -p 5720 ipbsadm@10.41.154.24'
+default-size-columns=160
+default-size-rows=50
+font='D2Coding 12'
+foreground-color='rgb(211,215,207)'
+palette=['rgb(23,20,33)', 'rgb(192,28,40)', 'rgb(94,227,166)', 'rgb(162,115,76)', 'rgb(162,201,250)', 'rgb(163,71,186)', 'rgb(42,161,179)', 'rgb(208,207,204)', 'rgb(94,92,100)', 'rgb(246,97,81)', 'rgb(51,218,122)', 'rgb(233,173,12)', 'rgb(42,123,222)', 'rgb(192,97,203)', 'rgb(51,199,222)', 'rgb(255,255,255)']
+use-custom-command=true
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='ipbs-api'
+
+[legacy/profiles:/:780ed5e5-571e-4220-a785-60e4d8673740]
+audible-bell=false
+background-color='rgb(46,52,54)'
+background-transparency-percent=24
+bold-color='rgb(163,47,47)'
+bold-color-same-as-fg=true
+bold-is-bright=false
+cell-width-scale=1.0
+custom-command='ssh -A -J ipbsadm@115.85.182.183:5720  -p 5720 ipbsadm@10.41.151.26'
+default-size-columns=160
+default-size-rows=50
+font='D2Coding 12'
+foreground-color='rgb(211,215,207)'
+palette=['rgb(23,20,33)', 'rgb(192,28,40)', 'rgb(94,227,166)', 'rgb(162,115,76)', 'rgb(162,201,250)', 'rgb(163,71,186)', 'rgb(42,161,179)', 'rgb(208,207,204)', 'rgb(94,92,100)', 'rgb(246,97,81)', 'rgb(51,218,122)', 'rgb(233,173,12)', 'rgb(42,123,222)', 'rgb(192,97,203)', 'rgb(51,199,222)', 'rgb(255,255,255)']
+use-custom-command=true
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='ipbs-db'
+
+[legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+audible-bell=true
+background-color='rgb(46,52,54)'
+background-transparency-percent=8
+bold-color='rgb(163,47,47)'
+bold-color-same-as-fg=true
+bold-is-bright=false
+cell-width-scale=1.0
+custom-command=''
+default-size-columns=190
+default-size-rows=47
+font='D2Coding 12'
+foreground-color='rgb(211,215,207)'
+login-shell=false
+palette=['rgb(34,46,54)', 'rgb(204,0,0)', 'rgb(103,208,3)', 'rgb(196,160,0)', 'rgb(106,168,247)', 'rgb(117,80,123)', 'rgb(6,152,154)', 'rgb(211,215,207)', 'rgb(85,87,83)', 'rgb(239,41,41)', 'rgb(138,226,52)', 'rgb(252,233,79)', 'rgb(114,159,207)', 'rgb(173,127,168)', 'rgb(52,226,226)', 'rgb(238,238,236)']
+use-custom-command=false
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='기본'
+
+[legacy/profiles:/:bba95f4b-9f84-4040-8923-f3a8fb366a7d]
+audible-bell=true
+background-color='rgb(46,52,54)'
+background-transparency-percent=8
+bold-color='rgb(163,47,47)'
+bold-color-same-as-fg=true
+bold-is-bright=false
+cell-width-scale=1.0
+custom-command='source ~/.local/venv/opencv/bin/activate'
+default-size-columns=190
+default-size-rows=47
+font='D2Coding 12'
+foreground-color='rgb(211,215,207)'
+login-shell=false
+palette=['rgb(34,46,54)', 'rgb(204,0,0)', 'rgb(103,208,3)', 'rgb(196,160,0)', 'rgb(106,168,247)', 'rgb(117,80,123)', 'rgb(6,152,154)', 'rgb(211,215,207)', 'rgb(85,87,83)', 'rgb(239,41,41)', 'rgb(138,226,52)', 'rgb(252,233,79)', 'rgb(114,159,207)', 'rgb(173,127,168)', 'rgb(52,226,226)', 'rgb(238,238,236)']
+preserve-working-directory='always'
+use-custom-command=false
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='opencv'
+
+[legacy/profiles:/:ced29367-563f-4189-b81f-d55a0e49c0d5]
+audible-bell=false
+background-color='rgb(46,52,54)'
+background-transparency-percent=0
+bold-color='rgb(163,47,47)'
+bold-color-same-as-fg=true
+bold-is-bright=false
+cell-width-scale=1.0
+custom-command='ssh ipbsadm@115.85.182.183 -p 5720'
+default-size-columns=160
+default-size-rows=50
+font='D2Coding 12'
+foreground-color='rgb(211,215,207)'
+palette=['rgb(23,20,33)', 'rgb(192,28,40)', 'rgb(94,227,166)', 'rgb(162,115,76)', 'rgb(162,201,250)', 'rgb(163,71,186)', 'rgb(42,161,179)', 'rgb(208,207,204)', 'rgb(94,92,100)', 'rgb(246,97,81)', 'rgb(51,218,122)', 'rgb(233,173,12)', 'rgb(42,123,222)', 'rgb(192,97,203)', 'rgb(51,199,222)', 'rgb(255,255,255)']
+use-custom-command=true
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='ipbs-gw'
